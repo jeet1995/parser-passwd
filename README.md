@@ -38,7 +38,11 @@ Name : Abhijeet Mohanty
     * Here, the group members are extracted from every line which does not start with a `#`.
     * An example : 
         ```
-        
+            wheel:*:0:root
+            daemon:*:1:root
+            kmem:*:2:root
+            sys:*:3:root
+            tty:*:4:root
         ```
     * Every group member is iterated through and is appended to a list in the dictionary.
 
